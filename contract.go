@@ -30,7 +30,7 @@ func NewContract(name string, abiJSON string, address common.Address) (*Contract
 	}
 	c.ABI = abi
 	for _, event := range abi.Events {
-		c.events[event.Id()] = event.Name
+		c.events[event.ID] = event.Name
 	}
 	return c, nil
 }
