@@ -12,7 +12,7 @@ import (
 	. "github.com/onsi/gomega"
 	. "github.com/stretchr/testify/mock"
 
-	"github.com/getamis/eth-event-listener/mocks"
+	"github.com/staking-lab/event-listener/mocks"
 )
 
 var _ = Describe("Event listener tests", func() {
